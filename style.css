@@ -1,0 +1,85 @@
+body {
+	font-family: 'Trebuchet MS';
+	font-size: 22px;
+	color: #f00;
+}
+
+	div:nth-child(1) {
+		position: absolute;
+		text-align: center;
+		top: 50%;
+		left: 0;
+		right: 0;
+		margin-top: -90px;
+	}
+
+	div:nth-child(2) {
+		position: absolute;
+		text-align: center;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: #fff;
+	}
+		div:nth-child(2) div {
+			position: absolute;
+			text-align: center;
+			top: 50%;
+			left: 0;
+			right: 0;
+			margin-top: -90px;
+		}
+
+div:nth-child(4) {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -436px 0 0 -400px;
+	z-index: -100;
+	color: #000;
+	font-family: monospace;
+	text-align: center;
+	width: 800px;
+	height: 800px;
+	background: #fff;
+	border-radius: 400px;
+	font-size: 300px;
+	line-height: 0;
+	border: 3px solid #000;
+	opacity: .1;
+	overflow: hidden;
+}
+	div:nth-child(4).beat {
+		background: #ccc;
+	}
+
+	div:nth-child(4) span {
+		margin-top: 400px;
+		display: inline-block;
+	}
+		div:nth-child(4) span:first-child {
+			font-size: 850px;
+			position: absolute;
+			width: 100%;
+			text-align: center;
+			margin-top: 377px;
+			color: #666;
+			z-index: -1;
+			top: 0;
+			left: 0;
+			font-family: Ubuntu;
+		}
+
+.title {
+	font-size: 90px;
+	color: #000;
+}
+
+audio {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	margin: 100px 0 0 -250px;
+}
